@@ -1,0 +1,459 @@
+/* ここから下に記載していく */
+
+.wrap {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header {
+    /* Header要素を横並びにする */
+display: flex;
+align-items: center;
+}
+
+.header_logo{
+    /* header logoのサイズを設定する */
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    /* header navの詳細を設定する */
+    width: 120%;
+    font-size: 21px;
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    word-spacing: 50px;
+}
+
+.main-text {
+    /* メインビジュアル画像を挿入する */
+    background-image: url(..//img/mainbg.png);
+    width: 1200px;
+    height: 439.55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-text .m1 {
+    /* 画像に挿入する文字サイズを設定する */
+    /* 反映されていないため再度調整 */
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.main-text .m2 {
+    /* 画像に挿入する文字サイズを設定する */
+    /* 反映されていないため再度調整 */
+    margin: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.ABOUT {
+    /* ABOUTフォームの文字を中央に寄せる */
+    text-align: center;
+}
+
+.a {
+    /* ABOUTの英語タイトル詳細設定 */
+    font-size: 24px;
+    color: #ffd61a;
+    margin-top: 60px;
+}
+
+.b1 {
+    /* ABOUTの日本語タイトル詳細設定 */
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.b2 {
+    /* 本文の詳細設定１ */
+    font-size: 16px;
+    margin-top:60px;
+}
+
+.b3 {
+    /* 本文の詳細設定２ */
+    font-size: 16px;
+    margin-top:0;
+}
+
+.b4{
+    /* 本文の詳細設定３ */
+    font-size: 16px;
+    margin-top:40px;
+}
+
+.b5 {
+    /* 本文の詳細設定４ */
+    font-size: 16px;
+    margin-top:0;
+    margin-bottom: 80px;
+}
+
+.pictures{
+    /* 4枚の写真を入れる大枠を作る */
+    display: flex;
+    width: 1200px;
+    height: auto;
+}
+
+.pictures .about {
+    /* 4枚の写真のサイズを指定する */
+    width: 300px;
+}
+
+.COURSE {
+    /* COURSEフォームの文字を中央に寄せる */
+    text-align: center;
+}
+
+.c {
+    /* COURSEの英語タイトル詳細設定 */
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.c1 {
+    /* COURSEの本文詳細設定 */
+    font-size: 16px;
+    margin-top:30px;
+}
+
+.c2 {
+    /* COURSEの本文の詳細設定 */
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+/* kenshuエリアの大枠設定 */
+.kenshu {
+    display: flex;
+}
+
+.kenshu .image_kenshu {
+    position: relative;
+    width: 600px;
+}
+
+.kenshu_text {
+    width: 430px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+/* 研修エリアのタイトル詳細設定 */
+.k {
+    font-size: 24px;
+}
+
+/* 研修エリアのテキスト詳細設定 */
+.kenshu .text1 {
+    font-size: 16px;
+}
+
+/* 知識エリアの大枠設定 */
+.knowledge {
+    display: flex;
+    margin-left: 120px;
+}
+
+.knowledge_text {
+    width: 430px;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.knowledge .image_knowledge {
+    position: relative;
+    width: 600px;
+}
+
+/* 知識エリアのタイトル詳細設定 */
+.k2 {
+    font-size: 24px;
+}
+
+/* 知識エリアのテキスト詳細設定 */
+.knowledge .text2 {
+    font-size: 16px;
+}
+
+/* テイスティングエリアの大枠設定 */
+.tasting {
+    display: flex;
+}
+
+.tasting .image_tasting {
+    position: relative;
+    width: 600px;
+}
+
+.tasting .tasting_text {
+    width: 430px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+/* テイスティングエリアのタイトル詳細設定 */
+.k3 {
+    font-size: 24px;
+}
+
+/* テイスティングエリアのテキスト詳細設定 */
+.tasting .text3 {
+    font-size: 16px;
+}
+
+/* NEWSエリアの大枠設定 */
+.NEWS {
+    text-align: center;
+}
+
+/* NEWSの英語タイトル詳細設定 */
+.n1 {
+    font-size: 24px;
+    color: #ffd61a;
+    margin-top: 60px;
+}
+
+/* NEWSの日本タイトル詳細設定 */
+.n2 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* piza写真とテキストの大枠設定 */
+.pizas {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.pizas .piza1 a {
+    text-decoration: none; 
+}
+
+/* piza写真とテキストにhoverを設定 */
+.pizas .pizas1:hover {
+    background-color: antiquewhite;
+}
+
+.pizas .p1 {
+    width: 300px;
+}
+
+
+/* MOREボタンの位置設定 */
+.MORE_button {
+    text-align: center;
+}
+
+/* submitの詳細設定 */
+input[type="submit"] {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Accessのコンテナを設定する */
+.Access {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fafafa;
+}
+
+/* Accessフォームの文字を中央に寄せる */
+.Access-text {
+    text-align: center;
+}
+
+.googlemap {
+    width: 1200px;
+    height: auto;
+}
+
+/* Accessの英語タイトル詳細設定 */
+.ac1 {
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+/* Accessの日本語タイトル詳細設定 */
+.ac2 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* GoogleMAPを加工要素 */
+.googlemap {
+    position: relative;
+    width: 1200px;
+    height: auto;
+}
+
+/* 学校詳細の表示を設定 */
+.categoly {
+    display: flex;
+    justify-content: center;
+}
+
+.categoly .ca {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* CONTACTフォームの文字を中央に寄せる */
+.CONTACT {
+    text-align: center;
+}
+
+/* CONTACTの英語タイトル詳細設定 */
+.ct {
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+/* CONTACTの本文詳細設定１ */
+.ct1 {
+    font-size: 16px;
+    margin-top:30px;
+}
+
+.ct2 {
+    font-size: 16px;
+    margin-top:60px;
+}
+
+.ct3 {
+    font-size: 16px;
+}
+
+.ct4 {
+    font-size: 16px;
+    margin-top:30px;
+}
+
+.ct5 {
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+/* contactformを親要素いっぱいに伸ばす */
+.contact-form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+/*　contactformの1行ごとに上ボーダーを付ける */
+.form-table {
+    width: 640px;
+    align-items: center;
+    border-top: 3px #bfbfbf solid;
+    border-bottom: 1px #bfbfbf solid;
+}
+
+/* contactform内のテキスト詳細設定 */
+.form-table th {
+    border-top: 1px #bfbfbf solid;
+    font-size: 18px;
+    width: 240px;
+    height: 50px;
+    text-align: left;
+    padding-right: 64px;
+}
+
+/* contactformのtdの詳細設定 */
+.form-table td {
+    border-top: 1px #bfbfbf solid;
+    border-left: 1px #bfbfbf solid;
+    width: 400px;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 64px;
+}
+
+/* 入力欄のスタイル指定 */
+/* textフォームのスタイリング */
+.form-table input[type="text"] {
+    border: 1px #bfbfbf solid;
+    margin: 8px;
+    width: 328px;
+    height: 36px;
+}
+
+/* プルダウンのスタイリング */
+.form-table .select {
+    border: 1px #bfbfbf solid;
+    margin: 8px;
+    width: 328px;
+    height: 36px;
+}
+
+/* チェックボックスのスタイリング */
+.contact-form .check-box {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+/* 詳細フォームのスタイリング */
+.form-table .inputs2 {
+    border: 1px #bfbfbf solid;
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    width: 328px;
+    height: 80px;
+}
+
+/* 送信ボタンの配置設定 */
+input[type="submit"] {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* フッターの設定 */
+#footer {
+    background-color: #707070;
+    text-align: center;
+}
+
+#footer .footer-text {
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
